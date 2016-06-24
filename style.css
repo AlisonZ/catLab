@@ -102,3 +102,8 @@ footer p{
   text-align:center;
   padding-top: 9px;
 }
+
+img.about {
+	margin: 0px auto;
+	width: 100%;
+}
