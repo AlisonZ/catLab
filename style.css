@@ -74,6 +74,12 @@ nav ul li {
   float: left;
 }
 
+nav ul li:hover{
+	color: black;
+	border-top: 10px solid red;
+
+}
+
 .default {
   border-top: 10px solid black;
   margin-top:0px;
