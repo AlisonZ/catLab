@@ -213,6 +213,20 @@ input {
 	height: 45px;
 }
 
+input[type="submit"] {
+  margin-top: 15px;
+	border: none;
+	padding: 8px 12px 10px 12px;
+	width: 180px;
+	color: white;
+	background: red;
+	transition: 750ms all;
+	cursor: pointer;
+  font-weight: bold;
+	text-align: center;
+	float: right;
+}
+
 /*Home Page Styling*/
 #banner {
 position: relative;
