@@ -227,6 +227,10 @@ input[type="submit"] {
 	float: right;
 }
 
+input[type="submit"]:hover {
+background: green;
+}
+
 /*Home Page Styling*/
 #banner {
 position: relative;
