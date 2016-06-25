@@ -46,10 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /*END OF STYLE RESET*/
 
-/*Base style*/body {
+/*Base styles*/
+body {
 	font-family: 'Droid Sans', sans-serif;
 }
 
@@ -57,7 +57,17 @@ nav {
   height: 90px;
   width: 100%;
   background-color: #2D2D2D;
+	min-width: 640px;
 }
+
+footer {
+	clear:both;
+	background-color: #2D2D2D;
+	width: 100%;
+	min-width: 450px;
+	height: 40px;
+}
+/*----------*/
 
 #menu {
   width: 100%;
@@ -83,12 +93,14 @@ nav ul li {
 #social li img:hover {
 	cursor: pointer;
 	animation-name: socialeffect;
-	animation-duration: 3s;
+	animation-duration: 1.5s;
 }
 
 @keyframes socialeffect {
-  from {border-radius: 100%;}
-    to {border-radius: 0%;}
+  from {border-radius: 100%;
+				transform: scale(1);}
+    to {border-radius: 0%;
+				transform:scale(1.5);}
 }
 
 .default {
@@ -109,12 +121,6 @@ li.selected {
  margin-right: 30px;
 }
 
-footer {
-  clear:both;
-  background-color: #2D2D2D;
-  width: 100%;
-  height: 40px;
-}
 
 footer p {
   font-family: Helvetica;
@@ -129,6 +135,7 @@ footer p {
 img.about {
 	margin: 0px auto;
 	width: 100%;
+	min-width: 640px;
 }
 
 .aboutus {
@@ -139,6 +146,7 @@ img.about {
 	padding-top: 20px;
 	background: #3A3A3A;
 	color: white;
+	min-width: 450px;
 	}
 
 .pane {
@@ -165,6 +173,7 @@ img.about {
 #banner {
 position: relative;
 }
+
 #banner_image {
 	width:100%;
 }
@@ -174,6 +183,7 @@ position: relative;
   bottom: 0;
   left: 35%;
 }
+
 #circles li {
   display: inline-block;
 }
@@ -195,6 +205,7 @@ position: relative;
   background:black;
   opacity:.3;
 }
+
 #float {
   clear:both;
   color:red;
