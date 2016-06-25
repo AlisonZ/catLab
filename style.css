@@ -53,10 +53,11 @@ body {
 	font-family: 'Droid Sans', sans-serif;
 }
 
-nav{
+nav {
   height: 90px;
   width: 100%;
   background-color: #2D2D2D;
+	min-width: 640px;
 }
 
 #menu{
@@ -74,10 +75,15 @@ nav ul li {
   float: left;
 }
 
-nav ul li:hover{
+#pages li:hover{
 	color: black;
 	border-top: 10px solid red;
+	cursor: pointer;
 
+}
+
+#social li:hover {
+	cursor: pointer;
 }
 
 .default {
