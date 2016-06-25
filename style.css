@@ -85,7 +85,7 @@ nav ul li {
 }
 
 #pages li:hover {
-	color: black;
+	color: red;
 	border-top: 10px solid red;
 	cursor: pointer;
 }
@@ -167,6 +167,50 @@ img.about {
 	font-weight: lighter;
 	line-height: 25px;
 	padding-top: 10px;
+}
+
+/*Contact Styling*/
+.talkabout {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	padding-top: 20px;
+	background: #3A3A3A;
+	color: white;
+	min-width: 450px;
+	line-height: 30px;
+}
+
+form {
+	font-size: 24px;
+	width: 100%;
+}
+
+fieldset {
+	background: #3a3a3a;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+label {
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left;
+		margin-top: 10px;
+}
+
+input, textarea {
+  float: left;
+	margin-left: 20px;
+	padding: 10px, 10px;
+	width: 350px;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+input {
+	height: 45px;
 }
 
 /*Home Page Styling*/

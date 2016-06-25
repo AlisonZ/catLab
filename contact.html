@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link type = "text/css" rel="stylesheet" href="style.css">
+ <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+     <title>CatLab</title>
+  </head>
+  <body>
+    <nav>
+      <div id="menu">
+        <ul id="pages">
+          <li id="home" class="default">HOME</li>
+          <li id="about" class="default">ABOUT</li>
+          <li id="contact" class="selected default">CONTACT</li>
+        </ul>
+
+        <ul id="social">
+          <li><img class='socialeffect' src="images/linkedin.png"></li>
+          <li><img class='socialeffect' src="images/instagram.png"></li>
+          <li><img class='socialeffect' src="images/tweet.png"></li>
+          <li><img class='socialeffect' src="images/facebook-icon.png"></li>
+        </ul>
+      </div>
+    </nav>
+    <img class="about" src='images/contact.jpg'/>
+    <div class="talkabout">
+      <p>Let's Talk About Cats!</p>
+      <!-- Below is jankety, I know. !-->
+      <p><u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></p>
+      <form>
+        <fieldset>
+          <label for="name">Name: </label>
+				  <input id="name" type="text" name="name"/>
+          <p></p>
+          <label for="email">E-Mail: </label>
+				  <input id="email" type="text" name="email"/>
+          <p></p>
+          <label for="subject">Subject: </label>
+				  <input id="subject" type="text" name="subject"/>
+          <p></p>
+          <label for="message">Message: </label>
+				  <textarea id="message" name="message" rows="8" cols="19"></textarea>
+          <p></p>
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+        <p>Copyright 2016 &copy; The Kitties, kitty@kitty.cat</p>
+      </footer>
+    </body>
+    <script source="app.js"></script>
+</html>
