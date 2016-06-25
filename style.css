@@ -85,7 +85,7 @@ nav ul li {
 }
 
 #pages li:hover {
-	color: black;
+	color: red;
 	border-top: 10px solid red;
 	cursor: pointer;
 }
