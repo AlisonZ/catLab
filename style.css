@@ -49,14 +49,17 @@ table {
 
 /*END OF STYLE RESET*/
 
+/*Base style*/
 body {
 	font-family: 'Droid Sans', sans-serif;
 }
 
+/*Nav Bar Styling*/
 nav{
   height: 90px;
   width: 100%;
   background-color: #2D2D2D;
+	min-width: 640px;
 }
 
 #menu{
@@ -98,11 +101,12 @@ li.selected {
  margin-right: 30px;
 }
 
+/*Footer Styling*/
 footer{
   clear:both;
   background-color: #2D2D2D;
   width: 100%;
-  height: 40px;
+   height: 40px;
 }
 
 footer p{
@@ -113,7 +117,7 @@ footer p{
   text-align:center;
   padding-top: 9px;
 }
-
+/*About Page Styling*/
 img.about {
 	margin: 0px auto;
 	width: 100%;
@@ -147,4 +151,44 @@ img.about {
 	font-weight: lighter;
 	line-height: 25px;
 	padding-top: 10px;
+}
+
+/*Home Page Styling*/
+#banner{
+position: relative;
+}
+#banner_image{
+	width:100%;
+}
+
+#circles{
+  position:absolute;
+  bottom: 0;
+  left: 35%;
+}
+#circles li {
+  display: inline-block;
+}
+
+#circles li div{
+  height:30px;
+  width:30px;
+  background-color:navy;
+  border-radius:80px;
+  margin-left: 10px;
+  border-color: #FFFFFF;
+}
+
+#floating_text{
+  position:absolute;
+  top:0;
+  height:100%;
+  width:300px;
+  background:black;
+  opacity:.3;
+}
+#float{
+  clear:both;
+  color:red;
+  position:absolute;
 }
