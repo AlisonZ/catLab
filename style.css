@@ -56,7 +56,6 @@ body {
 
 <<<<<<< HEAD
 /*Nav Bar Styling*/
-nav{
 =======
 nav {
 >>>>>>> fri-david
@@ -101,7 +100,7 @@ nav ul li {
 
 li.selected {
   border-top: 10px solid red;
-  color: white;
+  color: black;
 }
 
 #social li{
