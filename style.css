@@ -265,7 +265,7 @@ position: relative;
 #circles li div {
   height:30px;
   width:30px;
-  background-color:navy;
+  background-color: navy;
   border-radius:80px;
   margin-left: 10px;
   border-color: #FFFFFF;
@@ -284,4 +284,56 @@ position: relative;
   clear:both;
   color:red;
   position:absolute;
+}
+
+
+#recentKittyBanner{
+	text-color: #FFFFFF;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 30px;
+	text-decoration: underline;
+	background-color: #EAEAEA;
+	width:100;
+	height:100px;
+}
+
+.firstKitty li{
+	float:left;
+	margin-right: 30px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.firstKitty li:first-child{
+	margin-left:0px;
+}
+.firstKitty li:last-child{
+	margin-right: 0px;
+}
+
+.secondKitty li{
+	float:left;
+	margin-right: 30px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.secondKitty li:first-child{
+	margin-left:0px;
+}
+.secondKitty li:last-child{
+	margin-right: 0px;
+}
+
+.thirdKitty li{
+	float:left;
+	margin-right: 30px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.thirdKitty li:first-child{
+	margin-left:0px;
+}
+.thirdKitty li:last-child{
+	margin-right: 0px;
 }
