@@ -76,6 +76,11 @@ a {
 	display: inline-block;
 	padding: 30px;
 }
+
+p > u {
+	text-decoration: underline;
+	color: white;
+}
 /*----------*/
 
 #menu {
