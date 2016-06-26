@@ -332,10 +332,10 @@ position: relative;
 	font-family: Helvetica;
 	font-weight: lighter;
 	font-size: 30px;
-	text-decoration: underline;
 	background-color: #EAEAEA;
 	width:100;
 	height:100px;
+	padding-top: 40px;
 }
 
 .firstKitty li{
@@ -351,17 +351,81 @@ position: relative;
 	margin-right: 0px;
 }
 
+.firstKitty li div {
+	color:  #FFFFFF;
+	height: 400px;
+	width: 670px;
+	font-family: Helvetica;
+	font-weight:lighter;
+	font-size: 25px;
+	background-color:#3A3A3A;
+}
+
+h2{
+	margin-left: 50px;
+}
+h2:first-child{
+	padding-top: 30px;
+	font-size: 32px;
+}
+.firstKitty li div p{
+	margin-top: 10px;
+	margin-left: 50px;
+	width: 400px;
+}
+ .date{
+	margin-top: 70px;
+}
+
+.location{
+	margin-bottom: 80px;
+}
+
+.secondKitty{
+	float:left;
+}
 .secondKitty li{
 	float:left;
 	margin-right: 30px;
 	margin-left: 10px;
 	margin-bottom: 30px;
 }
+
 .secondKitty li:first-child{
 	margin-left:0px;
 }
 .secondKitty li:last-child{
 	margin-right: 0px;
+}
+
+.secondKitty li div {
+	color:  #FFFFFF;
+	height: 400px;
+	width: 670px;
+	font-family: Helvetica;
+	font-weight:lighter;
+	font-size: 25px;
+	background-color:#3A3A3A;
+}
+
+h2{
+	margin-left: 50px;
+}
+h2:first-child{
+	padding-top: 30px;
+	font-size: 32px;
+}
+.secondKitty li div p{
+	margin-top: 10px;
+	margin-left: 50px;
+	width: 400px;
+}
+ .date{
+	margin-top: 70px;
+}
+
+.location{
+	margin-bottom: 80px;
 }
 
 .thirdKitty li{
@@ -375,4 +439,34 @@ position: relative;
 }
 .thirdKitty li:last-child{
 	margin-right: 0px;
+}
+
+.thirdKitty li div {
+	color:  #FFFFFF;
+	height: 400px;
+	width: 670px;
+	font-family: Helvetica;
+	font-weight:lighter;
+	font-size: 25px;
+	background-color:#3A3A3A;
+}
+
+h2{
+	margin-left: 50px;
+}
+h2:first-child{
+	padding-top: 30px;
+	font-size: 32px;
+}
+.thirdKitty li div p{
+	margin-top: 10px;
+	margin-left: 50px;
+	width: 400px;
+}
+ .date{
+	margin-top: 70px;
+}
+
+.location{
+	margin-bottom: 80px;
 }
