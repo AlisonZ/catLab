@@ -67,6 +67,14 @@ footer {
 	min-width: 450px;
 	height: 40px;
 }
+
+a {
+	text-decoration: none;
+	color: inherit;
+	box-sizing: border-box;
+	width:100%;
+	display: block;
+}
 /*----------*/
 
 #menu {
@@ -82,6 +90,10 @@ nav ul li {
   margin-top: 35px;
   margin-left: 0px;
   float: left;
+}
+
+#pages li {
+	transition: 750ms all;
 }
 
 #pages li:hover {
