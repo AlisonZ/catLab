@@ -254,8 +254,8 @@ position: relative;
 
 #circles {
   position:absolute;
-  bottom: 0;
-  left: 35%;
+  bottom: 40px;;
+  left: 40%;
 }
 
 #circles li {
@@ -263,29 +263,68 @@ position: relative;
 }
 
 #circles li div {
-  height:30px;
-  width:30px;
-  background-color: navy;
+  height:15px;
+  width:15px;
+	border-width: thin;
   border-radius:80px;
   margin-left: 10px;
+	border: solid;
   border-color: #FFFFFF;
 }
 
-#floating_text {
+#circles li #filled_circle{
+	background-color: #FFFFFF;
+	color:red;
+}
+
+#float{
   position:absolute;
   top:0;
   height:100%;
   width:300px;
-  background:black;
-  opacity:.3;
+  background:#3A3A3A;
+  opacity:.7;
 }
 
-#float {
-  clear:both;
-  color:red;
+#floating_text {
   position:absolute;
+	top:0;
+  color:#FFFFFF;
+  position:absolute;
+	opacity:1;
+	width: 200px;
+	font-family: Helvetica;
+	font-weight: lighter;
+	margin-left:50px;
+	margin-top: 100px;
+
+}
+#floating_text h1{
+	font-size: 28px;
+	text-decoration: underline;
+	margin-bottom: 30px;
+	margin-left:0px;
+	margin-right: 0px;
 }
 
+#button{
+ 	bottom: 175px;
+	left: 50px;
+	clear:both;
+	position:absolute;
+	height: 70px;
+	width:200px;
+	background-color:  #E00000;
+	color:#FFFFFF;
+	text-align: center;
+}
+#button p{
+	color: : #FFFFFF;
+	margin-top: 25px;
+	font-size: 25px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
 
 #recentKittyBanner{
 	text-color: #FFFFFF;
