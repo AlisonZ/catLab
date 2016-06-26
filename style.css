@@ -72,8 +72,9 @@ a {
 	text-decoration: none;
 	color: inherit;
 	box-sizing: border-box;
-	width:100%;
-	display: block;
+	width: 135px;
+	display: inline-block;
+	padding: 30px;
 }
 /*----------*/
 
@@ -83,6 +84,7 @@ a {
 }
 
 nav ul li {
+	text-align: center;
   display: inline-block;
   font-family: Droid Sans;
 	font-weight: bold;
@@ -118,7 +120,6 @@ nav ul li {
 .default {
   border-top: 10px solid black;
   margin-top:0px;
-  padding:30px;
   color: #878787;
 }
 
